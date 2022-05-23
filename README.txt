@@ -11,3 +11,9 @@ please make a pr. i really need to clean this up.
 also if possible, i want to avoid js because
 js is pretty cringe, and i dont want to call on
 some ext domain for site functionality.
+
+if you do, i wont mail you a cookie (2 weeks +
+possible fees) but i will create a shoutout page
+and you will be included -- if you want to commit
+but not be included, email me or contact me in
+some other way. -s

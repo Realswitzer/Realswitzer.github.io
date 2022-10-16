@@ -1,6 +1,6 @@
 body {
   background-color: rgb(30,33,39);
-  font-family: "Ubuntu", monospace;
+  font-family: "Ubuntu Light", "Ubuntu Regular", monospace, "Arial";
 }
 
 p {

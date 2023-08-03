@@ -12,6 +12,10 @@ also if possible, i want to avoid js because
 js is pretty cringe, and i dont want to call on
 some ext domain for site functionality.
 
+gpg_readme.txt is copied from ~/gpgs/README
+it may be outdated unless i create more keys
+:3c
+
 if you do, i wont mail you a cookie (2 weeks +
 possible fees) but i will create a shoutout page
 and you will be included -- if you want to commit

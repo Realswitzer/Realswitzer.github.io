@@ -28,6 +28,10 @@ a:hover {
   color: rgb(180,180,250);
 }
 
+details {
+  color: rgb(200,200,200)
+}
+
 .two {
   text-indent: 20px;
 }

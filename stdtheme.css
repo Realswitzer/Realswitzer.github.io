@@ -29,7 +29,15 @@ a:hover {
 }
 
 details {
-  color: rgb(200, 200, 200)
+  color: rgb(200, 200, 200);
+}
+
+summary {
+  color: rgb(200, 200, 200);
+}
+
+span {
+  color: rgb(200, 200, 200);
 }
 
 .mapindent {

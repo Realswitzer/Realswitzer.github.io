@@ -10,6 +10,8 @@
 <body>
   <!--Valid URI Fragment IDs:
     contacts, session, session-qr, simplex, discord, discord-info, email, matrix, other-accounts, github, codeberg, steam, pgp, software, random_message
+
+    tbh stuff already collapsed doesnt do much, so i dont know how to have it show the right thing without using js. not my problem though.
     -->
   <p>hi welcome to my very good about me page.</p>
   <p>i do things sometimes, occasionally.</p>
@@ -17,70 +19,82 @@
     <br>i basically play games and "program" (and by that i mean...)
     <br><img src="/about/programming.png" alt="last commit 2m">
   </p>
-  <div class="mapindent">
-    <span id="contacts" style="margin-left:-20px;">contacts:
-      <br id="session">session: 056823b9927167dff4ba04c17084cb9b651304eeaf2fc9faa6c6f939d1f763242f <a
-        href='session://056823b9927167dff4ba04c17084cb9b651304eeaf2fc9faa6c6f939d1f763242f'>[open in session]</a>
-      <details id="session-qr">
-        <summary>QR Code</summary><img src="/about/qr_session.svg" width="200" height="200" class="mapindent">
-      </details>
-      <span id="simplex"></span>simplex: <a
-        href="https://simplex.chat/contact#/?v=1-4&smp=smp%3A%2F%2Fu2dS9sG8nMNURyZwqASV4yROM28Er0luVTx5X1CsMrU%3D%40smp4.simplex.im%2FpNfL4207gM6pt6vONNa4wx-vI4ciEQQW%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAq2i2pX6HqdZ3qzQcRJ0sXST1Pp6iiuMVoxN_clbl2DQ%253D%26srv%3Do5vmywmrnaxalvz6wi3zicyftgio6psuvyniis6gco6bp6ekl4cqj4id.onion">link</a>
-      <br id="discord">discord: switzrr
-      <details id="discord-info">
-        <summary>more information</summary>
-        <div class="mapindent"><a href="/a/discord.html">important discord info</a><br>
-          <@389059903001591819><br>prev. RealSwitz#6473
-        </div>
-      </details>
-      <span id="email"></span>email: <a href="mailto:switzr@tuta.io" id="email">switzr@tuta.io</a> -- see section <a
-        href="#pgp">pgp</a>
-      <br id="matrix">matrix: going to use different homeserver if and when i have a reason to use matrix
-      <br>
-      <br id="other-accounts">other accounts:
-      <br>
-      <br id="github">github: <a href="https://github.com/RealSwitzer">realswitzer</a>
-      <br id="codeberg">codeberg: private for now, dont want to get doxxed over it.
-      <br id="steam">steam: <a href="https://steamcommunity.com/profiles/76561198427577011">switzerwicki</a>
-      <br>
-      <details id="pgp">
-        <summary>
-          Information on GnuPG (PGP/GPG)
-        </summary>
-        <div class="mapindent">
-          for email, use gpg. will not respond otherwise.
-          <br>gpg is quite easy to use and ensures messenge authenticity and security.
-          <br>
-          <br>main key (femboyswitz): <a href="/271BDCF9FE6E99E717970C6EA734B31A95B2F197.asc">download</a>
-          <br>alt key (floofswitz): <a href="/F8319EF1963B63F17E02F8FF499C9A8346F426BE.asc">download</a>
-          <br><a href="/a/gpg_readme.txt">see previous keys (.txt)</a>
-        </div>
-      </details>
-    </span>
+  <div>
+    <details id="contacts" open>
+      <summary>contacts:</summary>
+      <div class="indent">
+        <span id="session"></span>session: 056823b9927167dff4ba04c17084cb9b651304eeaf2fc9faa6c6f939d1f763242f <a
+          href='session://056823b9927167dff4ba04c17084cb9b651304eeaf2fc9faa6c6f939d1f763242f'>[open in session]</a>
+        <details id="session-qr">
+          <summary>QR Code</summary><img src="/about/qr_session.svg" width="200" height="200" class="indent">
+        </details>
+        <span id="simplex"></span>simplex: <a
+          href="https://simplex.chat/contact#/?v=1-4&smp=smp%3A%2F%2Fu2dS9sG8nMNURyZwqASV4yROM28Er0luVTx5X1CsMrU%3D%40smp4.simplex.im%2FpNfL4207gM6pt6vONNa4wx-vI4ciEQQW%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAq2i2pX6HqdZ3qzQcRJ0sXST1Pp6iiuMVoxN_clbl2DQ%253D%26srv%3Do5vmywmrnaxalvz6wi3zicyftgio6psuvyniis6gco6bp6ekl4cqj4id.onion">link</a>
+        <br id="discord">discord: switzrr
+        <details id="discord-info">
+          <summary>more information</summary>
+          <div class="indent"><a href="/a/discord.html">important discord info</a><br>
+            <@389059903001591819><br>prev. RealSwitz#6473
+          </div>
+        </details>
+        <span id="email"></span>email: <a href="mailto:switzr@tuta.io" id="email">switzr@tuta.io</a> -- see section <a
+          href="#pgp">pgp</a>
+        <br id="matrix">matrix: going to use different homeserver if and when i have a reason to use matrix
+        <br>
+        <details id="other-accounts">
+          <summary>other accounts:</summary>
+          <div class="indent">
+            <span id="github"></span>github: <a href="https://github.com/RealSwitzer">realswitzer</a>
+            <br id="codeberg">codeberg: private for now, dont want to get doxxed over it.
+            <br><span class="indent">will probably switch to codeberg for some of my projects anyways.</span>
+            <br id="steam">steam: <a href="https://steamcommunity.com/profiles/76561198427577011">switzerwicki</a>
+          </div>
+        </details>
+        <details id="pgp">
+          <summary>information on GnuPG (PGP/GPG)</summary>
+          <div class="indent">
+            for email, use gpg. will not respond otherwise.
+            <br>gpg is quite easy to use and ensures messenge authenticity and security.
+            <br>
+            <br>main key (femboyswitz): <a href="/271BDCF9FE6E99E717970C6EA734B31A95B2F197.asc">download</a>
+            <br>alt key (floofswitz): <a href="/F8319EF1963B63F17E02F8FF499C9A8346F426BE.asc">download</a>
+            <br><a href="/a/gpg_readme.txt">see previous keys (.txt)</a>
+          </div>
+      </div>
+    </details>
   </div>
-  <p>software:
-    <br>text editors: <a href="https://atom.io/">atom</a> and <a href="https://vscodium.com/">(vs)codium</a>,
-    neovim/nano (nvim better than emacs)
-    <br>web browsers: <a href="https://librewolf.net">librewolf</a> (youtube man <a
-      href="https://www.youtube.com/watch?v=L2otiFy4ADI">recommended</a> it to me),
-    <br><a href="https://brave.com/">brave (although its glowed more)</a>, and <a
-      href="https://github.com/Eloston/ungoogled-chromium">ungoogled-chromium</a>
-    <br>messaging things: nheko reborn, discord
-    <br>archival software: peazip (*nix)
-    <br>music: spotify (spotx-linux), soundcloud, mpv
-    <br>package managers: brew (mac), apt (rpi4), yay (arch), pacman (arch)
-    <br>operating systems: mac @ macbook pro, raspbian @ rpi4-4gb, arch @ switz-nyarch
-    <br>other things:
-    <br><a href="https://steamcommunity.com/">steam</a>, <a href="https://git-scm.com/">git</a>, yt-dlp, ffmpeg,
-    flameshot, keepassxc
-  </p>
-  <p id="random_message">maybe eventually will ditch discord, but as of now,
-    <br>nobody uses better alternatives like simplex or session.
-    <br>when i eventually decide to ditch it,
-    <br>ill try providing some warning ahead of time,
-    <br>though im unable to ensure that.
-    <br>depends on if i get termed or not when i make up my mind.
-    <br>--switz 09.10.23</p>
+  <br>
+  <div>
+    <details id="software">
+      <summary>software:</summary>
+      <div class="indent">
+        text editors: <a href="https://vscodium.com/">vscodium</a>, <a href="https://neovim.io">neovim</a>, <a
+          href="https://nano-editor.org/">nano</a>
+        <br>web browsers: <a href="https://librewolf.net">librewolf</a> and <a
+          href="https://github.com/ungoogled-software/ungoogled-chromium">ungoogled-chromium</a>
+        <br>messaging things: <a href="https://getsession.org">session</a>, <a href="https://simplex.chat/">simplex</a>,
+        discord
+        <br>archival software: <a href="https://peazip.github.io/">peazip</a> (*nix)
+        <br>music: <a href="https://spotify.com">spotify</a> (<a
+          href="https://github.com/Nuzair46/SpotX-Linux">spotx-linux</a>), <a
+          href="https://soundcloud.com">soundcloud</a>, <a href="https://mpv.io">mpv</a>, elisa
+        <br>package managers: <a href="https://brew.sh">brew</a> (mac), apt (rpi4), <a
+          href="https://github.com/Jguer/yay">yay</a> (arch), pacman (arch)
+        <br>operating systems: mac @ macbook pro, raspbian @ rpi4-4gb, arch @ switz-nyarch
+        <br>other things: <a href="https://steamcommunity.com/">steam</a>, <a href="https://git-scm.com/">git</a>,
+        yt-dlp, ffmpeg,
+        flameshot, keepassxc
+        </p>
+      </div>
+  </div>
+  <p id="random_message">
+    i decided to switch up my page design
+    <br>to something hopefully less bad,
+    <br>especially after working on html just
+    <br>a bit more. might work on it more
+    <br>eventually but wont contain js
+    <br>&#x2661; noscript/umatrix users &#x2661;
+    <br>--switz 05.11.23</p>
 </body>
 
 </html>

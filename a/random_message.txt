@@ -1,0 +1,17 @@
+[1 <REMOVE 05.11.23>]
+maybe eventually will ditch discord, but as of now,
+nobody uses better alternatives like simplex or session.
+when i eventually decide to ditch it,
+ill try providing some warning ahead of time,
+though im unable to ensure that.
+depends on if i get termed or not when i make up my mind.
+--switz 09.10.23
+
+[2]
+i decided to switch up my page design
+to something hopefully less bad,
+especially after working on html just
+a bit more. might work on it more
+eventually but wont contain js
+&#x2661; noscript/umatrix users &#x2661;
+--switz 05.11.23

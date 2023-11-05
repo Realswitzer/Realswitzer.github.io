@@ -40,7 +40,6 @@ span {
   color: rgb(200, 200, 200);
 }
 
-.mapindent {
-  /*this just does not work.*/
+.indent {
   margin-left: 20px;
 }
